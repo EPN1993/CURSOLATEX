@@ -1,0 +1,41 @@
+\documentclass[11pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish , es-nolayout , es-nodecimaldot , es-tabla]{babel}
+\usepackage{amsmath , amsfonts , amssymb , amsthm}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\usepackage{parskip}
+\usepackage{nicefrac}
+
+\title{TAREA 2}
+\author{Gabriela Cando}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+La optimización de funciones no es un tema analizado únicamente con herramientas del cálculo en
+una variable y de la programación lineal. Esta se puede generalizar a espacios más generales como
+son los espacios de Banach. A continuación se presenta el siguiente problema de optimización:
+
+\[
+ \int_{0}^{a} (u(x))^2 dx + \int_{0}^{a} y(x)^2 dx + \dfrac{a^2}{med(0,a,a^2)}, 
+\]
+
+Sujeta a 
+
+\[
+\begin{cases}
+-u(x) + \alpha(x)u(x)= y & \text{en}  {(0,a)} \\
+u=0 & \text{en}  {(0,a)} \\
+\lim_{x \to 0} y(x) = a \\
+a \geq 4
+\end{cases}
+\]
+
+\[
+ \text{La idea es optimizar sobre el conjunto de funciones de cada intervalo de la forma} \quad [0,a] \qquad \text{y determinar el valor de}  \quad a \geq 4  \qquad \text{que indique el mejor intervalo de trabajo.} 
+\]
+
+\end{document}
